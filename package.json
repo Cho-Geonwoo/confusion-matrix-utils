@@ -1,0 +1,74 @@
+{
+  "name": "confusion-matrix-utils",
+  "version": "0.1.0",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "eslint-fix": "npm run eslint -- --fix",
+    "test": "jest",
+    "publish:npm": "rm -rf dist && mkdir dist && babel src/lib -d dist --copy-files"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Cho-Geonwoo/confusion-matrix-utils.git"
+  },
+  "keywords": [
+    "confusion",
+    "matrix",
+    "visualization",
+    "utils"
+  ],
+  "author": "Cho-Geonwoo",
+  "license": "MIT",
+  "homepage": "https://github.com/Cho-Geonwoo/confusion-matrix-utils",
+  "bugs": {
+    "url": "https://github.com/Cho-Geonwoo/confusion-matrix-utils/issues"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2"
+  }
+}
