@@ -1,4 +1,3 @@
-import ConfusionMatrix from './ConfusionMatrix';
-import useMetricsCalculator from './useMetricsCalculator';
+import useConfusionMatrixMetrics from './useConfusionMatrixMetrics';
 
-export { ConfusionMatrix, useMetricsCalculator };
+export { useConfusionMatrixMetrics };
