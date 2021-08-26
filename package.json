@@ -1,5 +1,5 @@
 {
-  "name": "confusion-matrix-utils",
+  "name": "confusion-matrix-tools",
   "version": "0.1.0",
   "module": "dist/index.js",
   "main": "dist/index.js",
